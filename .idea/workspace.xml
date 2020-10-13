@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="76e5d24a-d343-42d3-84fd-eab4f0f3794f" name="Default Changelist" comment="" />
+    <list default="true" id="76e5d24a-d343-42d3-84fd-eab4f0f3794f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/documents/echart.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0a83a94d-0322-42d9-b4ca-d24e79768b4c.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0a83a94d-0322-42d9-b4ca-d24e79768b4c/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/52109e78-8a61-4cd7-aadd-7db995c3f34f.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/52109e78-8a61-4cd7-aadd-7db995c3f34f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/56661721-0c46-40e1-b2c0-a34c3db891ff.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/56661721-0c46-40e1-b2c0-a34c3db891ff/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/576adaa3-c668-4864-b107-a766cac2702b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/576adaa3-c668-4864-b107-a766cac2702b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/91759171-36c0-48f0-87de-89f3e82e212d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/91759171-36c0-48f0-87de-89f3e82e212d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/94e07deb-636e-4f8b-872a-96de82de8ab4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/94e07deb-636e-4f8b-872a-96de82de8ab4/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d29dc5cc-b885-4be7-a531-7adfefdf78af.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d29dc5cc-b885-4be7-a531-7adfefdf78af/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Documents.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Documents.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DocumentsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DocumentsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_13_064017_create_documents_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_13_064017_create_documents_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/documents/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/documents/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/documents/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/documents/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/documents/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/documents/index.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +54,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -133,9 +180,14 @@
     <property name="DatabaseDriversLRU" value="redshift&#10;mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -153,17 +205,31 @@
       <updated>1602492834658</updated>
       <workItem from="1602492835805" duration="1319000" />
       <workItem from="1602494299752" duration="1873000" />
+      <workItem from="1602587547182" duration="2019000" />
+      <workItem from="1602589866427" duration="3859000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="231" y="84" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602579903770">
+    <state x="231" y="84" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602592187651">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="231" y="84" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1602579903770" />
+    <state x="231" y="84" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1602592187651" />
     <state x="72" y="27" width="1284" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602570894636">
       <screen x="72" y="27" width="1294" height="741" />
     </state>

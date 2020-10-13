@@ -8,6 +8,10 @@ use Illuminate\Http\Request;
 
 class DocumentsController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     public function index()
     {
         $documents = Documents::latest()->paginate(5);
@@ -24,6 +28,7 @@ class DocumentsController extends Controller
         $request->validate([
             'title' => 'required',
             'content' => 'required',
+            'privacy' => 'required',
         ]);
 
         Documents::create($request->all());
@@ -47,6 +52,7 @@ class DocumentsController extends Controller
         $request->validate([
             'title' => 'required',
             'content' => 'required',
+            'privacy' => 'required',
         ]);
 
         $document->update($request->all());
@@ -61,5 +67,14 @@ class DocumentsController extends Controller
 
         return redirect()->route('documents.index')
             ->with('success','Documents deleted successfully');
+    }
+
+    public function echart(Request $request)
+    {
+        $private = Documents::where('document','private')->get();
+        $public = Documents::where('document','public')->get();
+        $private_count = count($private);
+        $public_count = count($public);
+        return view('documents.index',compact('document'));
     }
 }

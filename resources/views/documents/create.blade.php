@@ -39,6 +39,15 @@
                 <textarea class="form-control" style="height:150px" name="content" placeholder="Content"></textarea>
             </div>
         </div>
+         <div class="col-xs-12 col-sm-12 col-md-12">
+             <div class="form-group">
+                 <strong>Privacy:</strong>
+                 <select class="form-control" name="privacy" style="height:40px; width: 100px">
+                     <option value="private">Private</option>
+                     <option value="public">Public</option>
+                 </select>
+             </div>
+         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                 <button type="submit" class="btn btn-primary">Submit</button>
         </div>

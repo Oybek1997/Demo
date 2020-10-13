@@ -48,6 +48,7 @@
             <th>No</th>
             <th>Title</th>
             <th>Content</th>
+            <th>Privacy</th>
             <th width="280px">Action</th>
         </tr>
         @foreach ($documents as $document)
@@ -55,6 +56,7 @@
             <td>{{ ++$i }}</td>
             <td>{{ $document->title }}</td>
             <td>{{ $document->content }}</td>
+            <td>{{ $document->privacy }}</td>
             <td>
                 <form action="{{ route('documents.destroy',$document->id) }}" method="POST">
 
