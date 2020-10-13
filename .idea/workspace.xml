@@ -160,17 +160,25 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="231" y="84" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602573680104">
+    <state x="231" y="84" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602579903770">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="231" y="84" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1602573680104" />
+    <state x="231" y="84" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1602579903770" />
     <state x="72" y="27" width="1284" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602570894636">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="72" y="27" width="1284" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/72.27.1294.741@72.27.1294.741" timestamp="1602570894636" />
-    <state x="600" y="287" width="367" height="304" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1602574249457">
+    <state x="600" y="287" width="367" height="437" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1602579743641">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="600" y="287" width="367" height="304" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/72.27.1294.741@72.27.1294.741" timestamp="1602574249456" />
+    <state x="600" y="287" width="367" height="437" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/72.27.1294.741@72.27.1294.741" timestamp="1602579743641" />
+    <state x="472" y="215" width="484" height="375" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1602579225405">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="472" y="215" width="484" height="375" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/72.27.1294.741@72.27.1294.741" timestamp="1602579225405" />
+    <state x="172" y="127" width="1094" height="541" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602579249142">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="172" y="127" width="1094" height="541" key="com.intellij.history.integration.ui.views.FileHistoryDialog/72.27.1294.741@72.27.1294.741" timestamp="1602579249142" />
   </component>
 </project>
