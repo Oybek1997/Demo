@@ -1,0 +1,21 @@
+$documents = Documents::latest()->paginate(5);
+       // $user = User::find(auth()->user()->id);
+        //$user = Auth::user();
+        return view('documents.index',compact('documents',))
+            ->with('i', (request()->input('page', 1) - 1) * 5);
+
+
+
+
+//Documents Model
+ public function users()
+    {
+        return $this->belongsTo('App\User');
+    }
+User Model
+
+ public function documents()
+    {
+        return $this->hasMany('App\Documents');
+
+    }

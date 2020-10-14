@@ -14,11 +14,14 @@ use App\Http\Controllers\DocumentsController;
 */
 
 Route::redirect('/', '/documents');
+    Route::resource('documents','App\Http\Controllers\DocumentsController');
+    Auth::routes();
+
+    Route::get('/home', [App\Http\Controllers\DocumentsController::class, 'index'])->name('home');
+    Route::get('/profile', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
 //Route::get('/', function () {
   //  return view('welcome');
 //});
-Route::resource('documents','App\Http\Controllers\DocumentsController');
 
-Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

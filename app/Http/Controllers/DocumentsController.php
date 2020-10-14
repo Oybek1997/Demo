@@ -4,16 +4,18 @@
 namespace App\Http\Controllers;
 
 use App\Documents;
+use App\Http\Rules\IsOwner;
 use Illuminate\Http\Request;
-
+use App\Http\Rules;
 class DocumentsController extends Controller
 {
     public function __construct()
     {
         $this->middleware('auth');
     }
-    public function index()
+    public function index(Request $request)
     {
+
         $documents = Documents::latest()->paginate(5);
 
         return view('documents.index',compact('documents'))
@@ -39,6 +41,7 @@ class DocumentsController extends Controller
 
     public function show(Documents $document)
     {
+
         return view('documents.show',compact('document'));
     }
 
