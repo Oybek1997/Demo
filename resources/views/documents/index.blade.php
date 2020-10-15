@@ -51,7 +51,7 @@
             <th>Privacy</th>
             <th width="280px">Action</th>
         </tr>
-        @foreach ($documents as $document)
+        @foreach ($private_docs as $document)
             <tr>
                 <td>{{ ++$i }}</td>
                 <td>{{ $document->title }}</td>
@@ -150,6 +150,7 @@
 
 
 
+    <a href="{{ url('/private') }}" class="text-sm text-gray-700 underline">Private</a>
 
     @endsection
     </body>

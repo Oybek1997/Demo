@@ -27,7 +27,8 @@ class DocumentsController extends Controller
         $user = User::where('id',Auth::user()->id)->firstOrFail();
         $private_docs=$user->documentus()->get();
 
-        return view('documents.private', compact('private_count', 'public_count','public'
+
+        return view('documents.index', compact('private_count', 'public_count','public'
             ,'private_docs'))
             ->with('i', (request()->input('page', 1) - 1) * 5);
 
