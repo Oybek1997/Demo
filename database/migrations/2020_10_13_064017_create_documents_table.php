@@ -17,7 +17,7 @@ class CreateDocumentsTable extends Migration
             $table->id();
             $table->string('title');
             $table->string('content');
-            $table->string('privacy');
+            $table->string('privacy')->nullable();
             $table->timestamps();
             $table->unsignedInteger('user_id')->nullable();
 

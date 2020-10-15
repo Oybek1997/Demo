@@ -19,7 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76e5d24a-d343-42d3-84fd-eab4f0f3794f" name="Default Changelist" comment="" />
+    <list default="true" id="76e5d24a-d343-42d3-84fd-eab4f0f3794f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DocumentsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DocumentsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_13_064017_create_documents_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_13_064017_create_documents_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/documents/echart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/documents/echart.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/documents/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/documents/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/documents/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/documents/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,6 +193,9 @@
       <workItem from="1602494299752" duration="1873000" />
       <workItem from="1602587547182" duration="2019000" />
       <workItem from="1602589866427" duration="3859000" />
+      <workItem from="1602680367465" duration="213000" />
+      <workItem from="1602738304535" duration="2396000" />
+      <workItem from="1602745719145" duration="15371000" />
     </task>
     <servers />
   </component>
@@ -200,10 +215,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="231" y="84" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602676327896">
+    <state x="72" y="250" width="1284" height="301" key="#SQL_Dialects" timestamp="1602762549012">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="231" y="84" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1602676327896" />
+    <state x="72" y="250" width="1284" height="301" key="#SQL_Dialects/72.27.1294.741@72.27.1294.741" timestamp="1602762549012" />
+    <state x="231" y="84" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602760517889">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="231" y="84" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1602760517889" />
     <state x="72" y="27" width="1284" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602570894636">
       <screen x="72" y="27" width="1294" height="741" />
     </state>

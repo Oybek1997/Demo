@@ -44,8 +44,8 @@
                  <div class="form-group">
                      <strong>Privacy:</strong>
                      <select class="form-control" name="privacy" style="height:40px; width: 100px">
-                         <option value="volvo">Private</option>
-                         <option value="saab">Public</option>
+                         <option value="private">Private</option>
+                         <option value="public">Public</option>
                      </select>
                  </div>
              </div>

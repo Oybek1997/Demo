@@ -1,0 +1,8 @@
+$documents = Documents::latest()->paginate(5);
+        $private = Documents::where('privacy','private')->get();
+        $public = Documents::where('privacy','public')->get();
+
+        $private_count = count($private);
+        $public_count = count($public);
+        return view('documents.index', compact('private_count', 'public_count', 'documents'))
+                ->with('i', (request()->input('page', 1) - 1) * 5);

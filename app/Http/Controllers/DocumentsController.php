@@ -5,8 +5,11 @@ namespace App\Http\Controllers;
 
 use App\Documents;
 use App\Http\Rules\IsOwner;
+use App\User;
 use Illuminate\Http\Request;
 use App\Http\Rules;
+use Illuminate\Support\Facades\Auth;
+
 class DocumentsController extends Controller
 {
     public function __construct()
@@ -15,11 +18,20 @@ class DocumentsController extends Controller
     }
     public function index(Request $request)
     {
+        //$documents = Documents::latest()->paginate(5);
+        $private = Documents::where('privacy','private')->get();
+        $public = Documents::where('privacy','public')->get();
+        $private_count = count($private);
+        $public_count = count($public);
 
-        $documents = Documents::latest()->paginate(5);
+        $user = User::where('id',Auth::user()->id)->firstOrFail();
+        $private_docs=$user->documentus()->get();
 
-        return view('documents.index',compact('documents'))
+        return view('documents.private', compact('private_count', 'public_count','public'
+            ,'private_docs'))
             ->with('i', (request()->input('page', 1) - 1) * 5);
+
+
     }
     public function create()
     {
@@ -74,10 +86,11 @@ class DocumentsController extends Controller
 
     public function echart(Request $request)
     {
-        $private = Documents::where('document','private')->get();
-        $public = Documents::where('document','public')->get();
+        $private = Documents::where('privacy','private')->get();
+        $public = Documents::where('privacy','public')->get();
         $private_count = count($private);
         $public_count = count($public);
-        return view('documents.index',compact('document'));
+        return view('documents.index',compact('private_count','public_count'));
+
     }
 }

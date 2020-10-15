@@ -1,7 +1,9 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DocumentsController;
+use App\Documents;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -24,4 +26,4 @@ Route::redirect('/', '/documents');
   //  return view('welcome');
 //});
 
-
+Route::get("/piechart", "App\Http\Controllers\EchartController@echart");

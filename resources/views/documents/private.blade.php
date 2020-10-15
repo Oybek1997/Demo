@@ -51,7 +51,7 @@
             <th>Privacy</th>
             <th width="280px">Action</th>
         </tr>
-        @foreach ($documents as $document)
+        @foreach ($private_docs as $document)
             <tr>
                 <td>{{ ++$i }}</td>
                 <td>{{ $document->title }}</td>
