@@ -45,7 +45,7 @@ class DocumentsController extends Controller
 
 
         return view('documents.index', compact('private_count', 'public_count','public'
-            ,'user_docs'))
+            ,'user_private','user_public'))
             ->with('i', (request()->input('page', 1) - 1) * 5);
 
     }
