@@ -9,6 +9,7 @@ use App\User;
 use Illuminate\Http\Request;
 use App\Http\Rules;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 
 class DocumentsController extends Controller
@@ -20,20 +21,31 @@ class DocumentsController extends Controller
 
     public function index(Request $request)
     {
-        //$documents = Documents::latest()->paginate(5);
-        $private = Documents::where('privacy','private',)->get();
-        $public = Documents::where('privacy','public')->get();
-
-
-        $private_count = count($private);
-        $public_count = count($public);
 
         $user = User::where('id',Auth::user()->id)->firstOrFail();
-        $private_docs=$user->documents()->get();
+        $user_docs=$user->documents()->get();
+        $request->merge(['user_id' => Auth::user()->id]);
+
+        //$user_private=$user_docs->where('privacy','private')->get();
+       // $user_public=$user_docs->where('privacy','public')->get();
+        $user_private = DB::table('documents')->where([
+            ['privacy','private'],
+            ['user_id',Auth::user()->id],
+        ])->get();
+        $user_public = DB::table('documents')->where([
+            ['privacy','public'],
+            ['user_id',Auth::user()->id],
+        ])->get();
+        //$documents = Documents::latest()->paginate(5);
+        $private = Documents::where('privacy','private')->get();
+        $public = Documents::where('privacy','public')->get();
+        $private_count = count($user_private);
+        $public_count = count($user_public);
+
 
 
         return view('documents.index', compact('private_count', 'public_count','public'
-            ,'private_docs'))
+            ,'user_docs'))
             ->with('i', (request()->input('page', 1) - 1) * 5);
 
     }
@@ -71,6 +83,7 @@ class DocumentsController extends Controller
 
     public function update(Request $request, Documents $document)
     {
+        //$uuid = Str::uuid()->toString();
         $request->merge(['user_id' => Auth::user()->id]);
         $request->validate([
             'title' => 'required',
