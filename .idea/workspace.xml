@@ -20,10 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76e5d24a-d343-42d3-84fd-eab4f0f3794f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4462c680-70f6-4ab1-ae92-33eebd001de3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4462c680-70f6-4ab1-ae92-33eebd001de3/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7df4adcd-27d0-4727-9d23-b6389613c01f.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7df4adcd-27d0-4727-9d23-b6389613c01f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Documents.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Documents.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DocumentsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DocumentsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_13_064017_create_documents_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_13_064017_create_documents_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/documents/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/documents/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/documents/private.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/documents/private.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +197,8 @@
       <workItem from="1602589866427" duration="3859000" />
       <workItem from="1602680367465" duration="213000" />
       <workItem from="1602738304535" duration="2396000" />
-      <workItem from="1602745719145" duration="17057000" />
+      <workItem from="1602745719145" duration="21781000" />
+      <workItem from="1602821178942" duration="12282000" />
     </task>
     <servers />
   </component>
@@ -212,10 +222,10 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="72" y="250" width="1284" height="301" key="#SQL_Dialects/72.27.1294.741@72.27.1294.741" timestamp="1602762549012" />
-    <state x="231" y="84" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602760517889">
+    <state x="231" y="84" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602821596036">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="231" y="84" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1602760517889" />
+    <state x="231" y="84" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1602821596036" />
     <state x="72" y="27" width="1284" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602570894636">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -224,10 +234,14 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="452" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/72.27.1294.741@72.27.1294.741" timestamp="1602678606459" />
-    <state x="600" y="287" width="367" height="437" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1602579743641">
+    <state x="600" y="287" width="367" height="444" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1602830336838">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="600" y="287" width="367" height="437" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/72.27.1294.741@72.27.1294.741" timestamp="1602579743641" />
+    <state x="600" y="287" width="367" height="444" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/72.27.1294.741@72.27.1294.741" timestamp="1602830336838" />
+    <state x="452" y="205" width="524" height="391" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog" timestamp="1602765952375">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="452" y="205" width="524" height="391" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/72.27.1294.741@72.27.1294.741" timestamp="1602765952375" />
     <state x="472" y="215" width="484" height="375" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1602579225405">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -236,5 +250,9 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="172" y="127" width="1094" height="541" key="com.intellij.history.integration.ui.views.FileHistoryDialog/72.27.1294.741@72.27.1294.741" timestamp="1602579249142" />
+    <state x="383" y="174" key="run.anything.popup" timestamp="1602766288277">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="383" y="174" key="run.anything.popup/72.27.1294.741@72.27.1294.741" timestamp="1602766288277" />
   </component>
 </project>

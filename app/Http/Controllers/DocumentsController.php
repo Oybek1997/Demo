@@ -9,6 +9,7 @@ use App\User;
 use Illuminate\Http\Request;
 use App\Http\Rules;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Str;
 
 class DocumentsController extends Controller
 {
@@ -16,22 +17,24 @@ class DocumentsController extends Controller
     {
         $this->middleware('auth');
     }
+
     public function index(Request $request)
     {
         //$documents = Documents::latest()->paginate(5);
-        $private = Documents::where('privacy','private')->get();
+        $private = Documents::where('privacy','private',)->get();
         $public = Documents::where('privacy','public')->get();
+
+
         $private_count = count($private);
         $public_count = count($public);
 
         $user = User::where('id',Auth::user()->id)->firstOrFail();
-        $private_docs=$user->documentus()->get();
+        $private_docs=$user->documents()->get();
 
 
         return view('documents.index', compact('private_count', 'public_count','public'
             ,'private_docs'))
             ->with('i', (request()->input('page', 1) - 1) * 5);
-
 
     }
     public function create()
@@ -40,10 +43,13 @@ class DocumentsController extends Controller
     }
     public function store(Request $request)
     {
+        $request->merge(['user_id' => Auth::user()->id]);
+       // $uuid = Str::uuid()->toString();
         $request->validate([
             'title' => 'required',
             'content' => 'required',
             'privacy' => 'required',
+
         ]);
 
         Documents::create($request->all());
@@ -65,10 +71,12 @@ class DocumentsController extends Controller
 
     public function update(Request $request, Documents $document)
     {
+        $request->merge(['user_id' => Auth::user()->id]);
         $request->validate([
             'title' => 'required',
             'content' => 'required',
             'privacy' => 'required',
+
         ]);
 
         $document->update($request->all());

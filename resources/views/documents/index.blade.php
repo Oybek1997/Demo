@@ -29,7 +29,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Your Posts</h2>
+                <h2>There all of Your  Posts</h2>
             </div>
             <div class="pull-right">
                 <a class="btn btn-success" href="{{ route('documents.create') }}"> Create New document</a>
@@ -51,7 +51,7 @@
             <th>Privacy</th>
             <th width="280px">Action</th>
         </tr>
-        @foreach ($private_docs as $document)
+        @foreach ($private_docs  as $document)
             <tr>
                 <td>{{ ++$i }}</td>
                 <td>{{ $document->title }}</td>

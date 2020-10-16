@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="laravel@localhost" uuid="7df4adcd-27d0-4727-9d23-b6389613c01f">
+    <data-source name="laravel@localhost" uuid="850aedab-0c66-4285-9e7b-4982dea4041b">
       <database-info product="MySQL" version="5.7.31" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.21 (Revision: 33f65445a1bcc544eb0120491926484da168f199)" dbms="MYSQL" exact-version="5.7.31" exact-driver-version="8.0">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
